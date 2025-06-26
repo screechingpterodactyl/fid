@@ -26,10 +26,15 @@ h1 {
 
 <body>
 
-<h1>Gallery: Our Signature Fried Chicken</h1>
+<h1>Gallery: Our Classic Fries</h1>
 
-<p><img src="photos/fries-800.jpg" alt="close-up of fries" width="800" height="600"></p>
-
+<a href="fries.html"><picture>
+  <source media="(min-width: 480px)"
+           srcset="photos/fries-1200.jpg 1200w,
+                   photos/fries-800.jpg 800w"
+          sizes="80vw">
+  <img src="photos/fries-400.jpg" alt="close-up of fries">
+</picture></a>
 
 <p><a href="index.html">[Back to Gallery]</a></p>
 

@@ -28,7 +28,13 @@ h1 {
 
 <h1>Gallery: Catch of the Day</h1>
 
-<p><img src="photos/fish-800.jpg" alt="close-up of fish" width="800" height="600"></p>
+<a href="fish.html"><picture>
+  <source media="(min-width: 480px)"
+           srcset="photos/fish-1200.jpg 1200w,
+                   photos/fish-800.jpg 800w"
+          sizes="80vw">
+  <img src="photos/fish-400.jpg" alt="close-up of fish">
+</picture></a>
 
 <p><a href="index.html">[Back to Gallery]</a></p>
 

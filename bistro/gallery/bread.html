@@ -31,7 +31,15 @@ h2 {
 <body>
 
 <h1>Gallery: Our Baked Goods</h1>
-<p><img src="photos/bread-800.jpg" alt="close-up of sliced rustic bread" width="800" height="600"></p>
+<p>
+<a href="bread.html"><picture>
+  <source media="(min-width: 480px)"
+           srcset="photos/bread-1200.jpg 1200w,
+                   photos/bread-800.jpg 800w"
+          sizes="80vw">
+  <img src="photos/bread-400.jpg" alt="close-up of sliced rustic bread">
+</picture></a><br>
+</p>
 <p><a href="index.html">[Back to Gallery]</a></p>
 </body>
 </html>
