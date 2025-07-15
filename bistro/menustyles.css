@@ -5,21 +5,17 @@ body {
   line-height: 175%;
   margin: 0 15% 0;
   background: #e4f2fa url(images/blackgoose.png) no-repeat center 100px fixed;
-
-/*  background-image: url(images/bullseye.png);
-  background-position: center 200px; */ 
 }
+
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-   background: url(images/purpledot.png) center top repeat-x;
   background:
     url(images/purpledot.png) left top repeat-y,
     url(images/purpledot.png) right top repeat-y,
     url(images/gooseshadow.png) 90% bottom no-repeat;
   background-color: rgba(255,255,255,.5);
-  
 }
 
 a {
@@ -62,7 +58,7 @@ ul {
   font-family: Georgia, serif;
   font-style: italic;
 }
-p.warning, sup {
+.warning, sup {
   font-size: small;
   color: red;
 }
