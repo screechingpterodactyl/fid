@@ -64,6 +64,7 @@ ul {
 }
 p.warning, sup {
   font-size: small;
+  color: red;
 }
 .label {
   font-weight: bold;
