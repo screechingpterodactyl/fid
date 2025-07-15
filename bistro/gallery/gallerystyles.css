@@ -1,0 +1,11 @@
+body {
+  background-color: #e4f2fa;
+  margin: 0 10%;
+  font-family: sans-serif;
+  text-align: center;
+  }
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .1em .1em .2em gray;
+  color: #097eb4;}
