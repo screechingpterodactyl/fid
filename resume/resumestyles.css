@@ -1,0 +1,64 @@
+ body {
+  background: #1B0069 url(funky\ shapes.jpg) center fixed;
+  -webkit-text-fill-color: white;
+  margin: 0 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;}
+
+  header {
+  margin-top: 0;
+  padding: 3em 17em;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);}
+
+h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 5px solid #e5945c;
+  margin-top: 30px;}
+
+h2 {
+  font-size: 1.3em;}
+
+footer {
+  border-top: 5px solid #38b6ff;
+  text-align: center;
+  padding-top: 1em;
+  align-items: center;
+  align-content: center;}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;} 
+
+ ul {
+	list-style-type: square;}
+
+li::marker {color: white;}
+
+.container {
+  text-align: center;}
+
+.skills {
+  display: inline-block;
+  text-align: left;}
+
+.software {
+  display: inline-block;
+  text-align: left;}
+
+ table, td, th {border: 3px solid #fafa33; align-self: center; align-items: center; align-content: center; text-align: center;}
+
+ .center {
+  margin-left: auto;
+  margin-right: auto;}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);}
+a:hover {background-color: #22b14c;}
+a:focus {background-color: #22b14c;}
